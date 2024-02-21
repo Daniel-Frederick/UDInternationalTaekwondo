@@ -1,0 +1,29 @@
+[debug] [2024-02-19T05:10:09.931Z] ----------------------------------------------------------------------
+[debug] [2024-02-19T05:10:09.934Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mageb\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-19T05:10:09.935Z] CLI Version:   13.3.0
+[debug] [2024-02-19T05:10:09.935Z] Platform:      win32
+[debug] [2024-02-19T05:10:09.935Z] Node Version:  v20.11.0
+[debug] [2024-02-19T05:10:09.935Z] Time:          Mon Feb 19 2024 00:10:09 GMT-0500 (Cuba Standard Time)
+[debug] [2024-02-19T05:10:09.935Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-19T05:10:09.942Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-19T05:10:09.942Z] > authorizing via signed-in user (frederickd5@udayton.edu)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\mageb\udinternationaltaekwondo\udinternationaltaekwondo\src\app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 

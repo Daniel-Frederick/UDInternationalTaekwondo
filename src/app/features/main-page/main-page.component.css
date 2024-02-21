@@ -1,0 +1,173 @@
+/* I started with completing the website on laptop */
+* {
+  color: white;
+}
+
+main {
+  background-color: #204f9f;
+  width: 75%;
+
+  /* center  */
+  margin: 0 auto;
+
+  text-align: center;
+
+  font-family: "Outfit", sans-serif;
+}
+
+h2 {
+  margin: 5px;
+  font-size: 2rem;
+}
+
+/* h2:first-of-type {
+    margin-top: 200px;
+  } */
+
+/* Intro */
+.title {
+  font-size: 2rem;
+}
+
+.spacing {
+  margin: 0 75px 30px 75px;
+}
+
+/* Our Fun Activites */
+.activities h3 {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+.activities section img {
+  height: 250px;
+}
+
+.activities p {
+  font-size: 1rem;
+  margin: 0 50px;
+}
+
+/* Wrappers for Activites */
+#forms-wrapper {
+  display: flex;
+  background-color: #ce0037;
+  align-items: center;
+  box-shadow: 0 2px 5px black;
+}
+
+#BoardBreaking-wrapper {
+  display: flex;
+  background-color: #ce0037;
+  align-items: center;
+  box-shadow: 0 2px 5px black;
+}
+
+#Sparring-wrapper {
+  display: flex;
+  background-color: #ce0037;
+  align-items: center;
+  box-shadow: 0 2px 5px black;
+}
+
+#weaponsTraining-wrapper {
+  display: flex;
+  background-color: #ce0037;
+  align-items: center;
+  box-shadow: 0 2px 5px black;
+}
+
+/* Mainly Tablets */
+/* When width <= 940 change layout */
+@media screen and (max-width: 940px) {
+  main {
+    width: 85%;
+  }
+
+  .spacing {
+    margin: 0 5% 15px 5%;
+  }
+
+  /* switch order */
+  #forms-wrapper {
+    flex-direction: column-reverse;
+    width: 75%;
+    /* center  */
+    margin: 0 auto;
+  }
+
+  #BoardBreaking-wrapper {
+    flex-direction: column;
+    width: 75%;
+    /* center  */
+    margin: 0 auto;
+  }
+
+  #Sparring-wrapper {
+    flex-direction: column-reverse;
+    width: 75%;
+    /* center  */
+    margin: 0 auto;
+  }
+
+  #weaponsTraining-wrapper {
+    flex-direction: column;
+    width: 75%;
+    /* center  */
+    margin: 0 auto;
+  }
+
+  .activities h3 {
+    margin: 12px 0;
+  }
+
+  .activities p {
+    font-size: 1rem;
+    margin: 5px 10%;
+  }
+
+  .activities h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile Devices */
+@media screen and (max-width: 580px) {
+  main {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  /* Title */
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .spacing {
+    margin: 0 15% 15px 15%;
+    font-size: 0.6rem;
+    margin: 0 5% 15px 5%;
+  }
+
+  /* Activites */
+  .activities h2 {
+    font-size: 0.9rem;
+  }
+
+  .activities h3 {
+    font-size: 0.9rem;
+    margin: 12px 0;
+  }
+
+  .activities section img {
+    height: 180px;
+  }
+
+  .activities p {
+    font-size: 0.6rem;
+    margin: 5px 10%;
+  }
+}

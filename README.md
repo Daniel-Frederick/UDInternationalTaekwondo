@@ -1,9 +1,8 @@
-# Udinternationaltaekwondo
+# UD International Taekwondo
 
-This is the university of Dayton International Taekwondo Club's website.
+This is the University of Dayton International Taekwondo Club's website.
+https://udinternationaltaekwondo.firebaseapp.com/
 
-Current website: https://international-taekwondo.web.app/
+I developed this website using Angular and is hosted by Firebase.
 
-I developed this website Using Angular and is hosted by Firebase.
-
-2023
+Created in 2023
